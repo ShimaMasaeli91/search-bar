@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="search-script.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="search-styles.css" />
+  </head>
+  <body>
+    <div class="search-wrapper">
+      <label for="search">Search Books</label>
+      <input type="search" id="search" data-search />
+    </div>
+    <div class="book-cards" data-book-cards-container>
+      <template data-book-template>
+        <div class="card">
+          <div class="header" data-header></div>
+          <div class="body" data-body></div>
+        </div>
+      </template>
+    </div>
+  </body>
+</html>
